@@ -1,0 +1,29 @@
+.body {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    justify-content: space-evenly;
+    background-color: rgb(211, 225, 250);
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 1%;
+}
+
+.btn {
+    background-color:rgb(124, 120, 148);
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.errorText {
+    color: red;
+}
